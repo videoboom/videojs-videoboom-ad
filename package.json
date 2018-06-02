@@ -1,0 +1,31 @@
+{
+  "name": "videojs-videoboom-ad",
+  "version": "0.0.1",
+  "description": "A videojs plugin for showing ads with vast,vpaid,vmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/videoboom/videojs-videoboom-ad.git"
+  },
+  "keywords": [
+    "videojs",
+    "vast",
+    "vmap",
+    "vpaid",
+    "ad",
+    "preroll",
+    "postroll",
+    "midroll",
+    "banner",
+    "compainonads"
+  ],
+  "author": "Mohammad Hadi Aliakbar, Solmaz Khosravi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/videoboom/videojs-videoboom-ad/issues"
+  },
+  "homepage": "https://github.com/videoboom/videojs-videoboom-ad#readme"
+}
