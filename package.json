@@ -4,7 +4,9 @@
   "description": "A videojs plugin for showing ads with vast,vpaid,vmap",
   "main": "index.js",
   "scripts": {
-    "test": "karma"
+    "test": "karma start",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,24 @@
   "bugs": {
     "url": "https://github.com/videoboom/videojs-videoboom-ad/issues"
   },
-  "homepage": "https://github.com/videoboom/videojs-videoboom-ad#readme"
+  "homepage": "https://github.com/videoboom/videojs-videoboom-ad#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-safari-launcher": "^1.0.0",
+    "mocha": "^5.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
