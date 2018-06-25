@@ -1,0 +1,32 @@
+<VAST version="3" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Ad id="">
+        <InLine>
+            <AdSystem version="3.0">adSystem</AdSystem>
+            <Impression>https://adwebservice.videoboom.net/tracker.svc/impressionh/x0A_lZT5nFbEX71mkd0tsoNmwF5z9V8aLygyqPiVZcNGwl_LrYcdzvKpMpu.IoRR</Impression>
+            <Creatives>
+                <Creative sequence="1" id="id">
+                    <Linear skipoffset="00:00:5">
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tsuV5qOyPCpKYgAgUY.V7tMo-</Tracking>
+                            <Tracking event="firstQuartile">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tsvH5nZJLeQjRHGf0bJgwx0_acufrAGyVIp3bd8BERLj0</Tracking>
+                            <Tracking event="midpoint">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tskLJLvC5QVcFqqbkdvZkocLvI1hwunDNBeMn3BKr_MWZ</Tracking>
+                            <Tracking event="thirdQuartile">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tsqPOZN7sc4xaq9FXcOC62ZZNNAn6UMrOAfFpWoDG0VYh</Tracking>
+                            <Tracking event="complete">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tskPGzlL2VrDAu53_fwMA6Hs4ZT1NpMrGbM4pRcUBmryX</Tracking>
+                            <Tracking event="progress" offset="00:00:09">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tsgp0OrRbWM6mCDW.i76iI1v.s8FiWsvzcwrEh339dE7d</Tracking>
+                            <Tracking event="skip">https://adwebservice.videoboom.net/tracker.svc/trackh/x0A_lZT5nFbEX71mkd0tsu.xbO9bH5Wjqw2UgA67EDw-</Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>https://adwebservice.videoboom.net/redirector2.aspx?hashed=6RV9cFLzU_UT0DQltTkKF6wHrG.L5IQexzN7P4gW0MuVPvLUfLfC858KJ7tyDAoY3SujGcignpaMqvFsIfAySuUqvNjQbMkHCI4j3UCE9BKkKmovMMG9TBstv5f3CdtVxwTUNU6bFOI6xIe68BviMmYJ0AN6.XaquzAGeA38Z5hlqlAb4_XqAjDQ3K7dK0.rwXUlQJFF8LoFX9QfKKJ4Fw--</ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4">https://ad.videoboom.net/ads/4973554c-f994-4c75-8fb2-dc9caae24d7a.mp4</MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
